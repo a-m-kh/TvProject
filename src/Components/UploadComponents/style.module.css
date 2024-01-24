@@ -1,0 +1,36 @@
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+.Tablec{
+  width: 90%;
+}
+
+.Hid{
+  width:5%;
+}
+
+
+.ThName{
+  width: 15%;
+}
+.ThChannel{
+  width: 15%;
+}
+.ThDate{
+  width: 15%;
+}
+
+.ThSensetive{
+  width: 20%;
+}
+
+.ThKey{
+  width: 20%;
+}
+
+.ThOnline{
+  width: 10%;
+}

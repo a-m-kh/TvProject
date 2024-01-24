@@ -1,0 +1,28 @@
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+
+.trStyle{
+  background-color: rgb(235, 237, 239);
+}  
+
+
+.Tablec{
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+.ThWords{
+  width:30%;
+}
+
+
+.ThStart{
+  width: 30%;
+}
+.ThEnd{
+  width: 30%;
+}
