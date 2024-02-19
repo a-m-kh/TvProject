@@ -19,7 +19,7 @@ const VoiceSubmit = () => {
             <Grid container spacing={3} style={{
                 width: 1000,
                 backgroundColor: "white",
-                marginLeft: 95,
+                //marginLeft: 95,
                 boxShadow: 10,
                 borderRadius: 10,
                 //borderStyle:"solid",
@@ -55,7 +55,7 @@ const VoiceSubmit = () => {
                     width: 970,
                     backgroundColor: "white",
                     marginLeft: 15,
-                    borderWidth:0.5,
+                    borderWidth: 0.5,
                     boxShadow: "1px 1px 1px 1px gray",
                     borderRadius: 10,
                     borderStyle: "solid",
@@ -70,8 +70,8 @@ const VoiceSubmit = () => {
                     </Grid>
                     <h4 style={{
                         marginLeft: 20,
-                        marginTop:20,
-                        marginBottom:10
+                        marginTop: 20,
+                        marginBottom: 10
                     }}>
                         Edit Transcription
                     </h4>

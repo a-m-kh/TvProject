@@ -77,35 +77,35 @@ function SideBar() {
             </div>
             <ul className="nav-list">
                 <li>
-                    <a href="/">
+                    <a href="/voice">
                         <TvIcon className={classes.icons} />
                         <span className="links_name">channels</span>
                     </a>
                     <span className="tooltip">channels</span>
                 </li>
                 <li>
-                    <a href="/Search/">
+                    <a href="/filePage">
                         <FolderIcon className={classes.icons} />
                         <span className="links_name">Files</span>
                     </a>
                     <span className="tooltip">Files</span>
                 </li>
                 <li>
-                    <a href="/showplaylist">
+                    <a href="/events">
                         <NotificationsIcon className={classes.icons} />
                         <span className="links_name">Events</span>
                     </a>
                     <span className="tooltip">Events</span>
                 </li>
                 <li>
-                    <a href="/Analysis/">
+                    <a href="/Upload">
                         <DriveFolderUploadIcon className={classes.icons} />
                         <span className="links_name">Upload</span>
                     </a>
                     <span className="tooltip">Upload</span>
                 </li>
                 <li>
-                    <a href="/Help/">
+                    <a href="/configEvent">
                         <SettingsIcon className={classes.icons} />
                         <span className="links_name">Config Events</span>
                     </a>

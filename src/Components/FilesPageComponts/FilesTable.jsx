@@ -3,6 +3,8 @@ import style from "./style.module.css";
 import { TextField } from "@material-ui/core";
 import { useState } from "react";
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
+import VisibilityIcon from '@mui/icons-material/Visibility';
+import FilterAltIcon from '@mui/icons-material/FilterAlt';
 import Pagination from '@mui/material/Pagination';
 import MenuItem from '@mui/material/MenuItem';
 import Select from '@mui/material/Select';
@@ -41,10 +43,8 @@ const FilesTable = () => {
             <Grid container spacing={3} style={{
                 width: 1000,
                 backgroundColor: "white",
-                marginLeft: 95,
                 boxShadow: 10,
                 borderRadius: 10,
-                //borderStyle:"solid",
                 borderColor: "white"
             }}>
                 <Grid xs={12} style={{ marginBottom: 30, backgroundColor: "rgb(247, 247, 248)", height: 40, verticalAlign: "middle" }}>
@@ -52,22 +52,29 @@ const FilesTable = () => {
                         Files
                     </h4>
                 </Grid>
-                <Grid xs={12} style={{ marginBottom: 30, display: "flex", flexDirection: "row" }}>
+                <Grid xs={12} style={{ marginBottom: 30,
+                    display: "flex", 
+                    flexDirection: "row",
+                    }}>
                     <h4 style={{ marginTop: 15, marginLeft: 12, marginRight: 35 }}>
                         Filter:
                     </h4>
-                    <TextField item xs={5} id="outlined-basic" label="type string ..." variant="outlined" style={{ width: 400 }} />
+                    <FilterAltIcon style={{
+                        display:"flex",
+                        justifyContent:"center",
+                        marginTop:"10px",
+                        verticalAlign:"center",
+
+                    }}/>
                 </Grid>
                 <Grid style={{ width: "100%", alignItems: "center", alignContent: "center", display: "flex", justifyContent: "center" }}>
                     <table className={style.Tablec}>
                         <tr>
                             <th className={style.Hid}></th>
                             <th className={style.ThName} >Nama</th>
-                            <th className={style.ThChannel} >Channel</th>
                             <th className={style.ThDate}>Date Time</th>
                             <th className={style.ThSensetive}>Sensetive Word</th>
                             <th className={style.ThKey}>Key Word</th>
-                            <th className={style.ThOnline}>Is Online</th>
                         </tr>
                         {data.map((item2, index) => {
                             return (
@@ -75,24 +82,9 @@ const FilesTable = () => {
                                     <tr>
                                         <td><VisibilityOffIcon style={{ color: "rgb(50,31,219)" }} /></td>
                                         <td>{item2.name}</td>
-                                        <td>{item2.channel}</td>
                                         <td>{item2.dateTime}</td>
                                         <td>{item2.sensetiveWord}</td>
                                         <td>{item2.keyWord}</td>
-                                        <td>{item2.isOnline ?
-                                            (
-                                                <h6 style={{ backgroundColor: "green", color: "white", borderRadius: 7 }}>
-                                                    online
-                                                </h6>
-                                            )
-                                            :
-                                            (
-                                                <h6 style={{ backgroundColor: "red", color: "white", borderRadius: 7 }}>
-                                                    ofline
-                                                </h6>
-                                            )
-                                        }
-                                        </td>
                                     </tr>
                                 </>
                             )
@@ -138,8 +130,6 @@ const FilesTable = () => {
                             </Select>
                         </FormControl>
                     </div>
-                    {/* <Box sx={{ flexGrow: 1 }} /> */}
-
                 </Grid>
             </Grid>
         </>

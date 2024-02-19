@@ -19,7 +19,7 @@ const UploadFiles = () => {
             <Grid container spacing={3} style={{
                 width: 1000,
                 backgroundColor: "white",
-                marginLeft: 95,
+                //marginLeft: 95,
                 boxShadow: 10,
                 borderRadius: 10,
                 borderColor: "white",
@@ -35,49 +35,49 @@ const UploadFiles = () => {
                 </Grid>
 
                 <div style={{
-                    width:"100%",
-                    alignItems:"center",
-                    alignContent:"center",
-                    display:"flex",
-                    justifyContent:"center",
+                    width: "100%",
+                    alignItems: "center",
+                    alignContent: "center",
+                    display: "flex",
+                    justifyContent: "center",
                     //marginBottom:50
                 }}>
-                <div style={{
-                    width: "80%",
-                    height: 170,
-                    borderStyle: "dotted",
-                    borderWidth: 2,
-                    borderColor: "gray",
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "space-around",
-                    alignItems: "center",
-                }}>
                     <div style={{
+                        width: "80%",
+                        height: 170,
+                        borderStyle: "dotted",
+                        borderWidth: 2,
+                        borderColor: "gray",
                         display: "flex",
                         flexDirection: "column",
-                        justifyContent: "center",
-                        alignItems: "center"
-                    }}
-                    >
-                        <BackupIcon style={{
-                            color: "black"
-                        }} />
+                        justifyContent: "space-around",
+                        alignItems: "center",
+                    }}>
+                        <div style={{
+                            display: "flex",
+                            flexDirection: "column",
+                            justifyContent: "center",
+                            alignItems: "center"
+                        }}
+                        >
+                            <BackupIcon style={{
+                                color: "black"
+                            }} />
+                            <h3>
+                                Drog and Drop files here
+                            </h3>
+                        </div>
                         <h3>
-                            Drog and Drop files here
+                            or
                         </h3>
+                        <ColorButton variant="contained" style={{
+                        }}>Upload</ColorButton>
                     </div>
-                    <h3>
-                        or
-                    </h3>
-                    <ColorButton variant="contained" style={{
-                    }}>Upload</ColorButton>
-                </div>
                 </div>
                 <Grid>
                     <div style={{
                         display: "block",
-                        marginTop:6
+                        marginTop: 6
                     }}>
                         <ColorButton variant="contained" style={{
                         }}>Submit</ColorButton>

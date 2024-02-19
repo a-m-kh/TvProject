@@ -8,7 +8,7 @@ const KeyWords = () => {
             <Grid container spacing={3} style={{
                 width: 1000,
                 backgroundColor: "white",
-                marginLeft: 95,
+                //marginLeft: 95,
                 boxShadow: 10,
                 borderRadius: 10,
                 //borderStyle:"solid",

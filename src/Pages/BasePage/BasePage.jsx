@@ -9,7 +9,14 @@ const BasePage = (prop) => {
             <SideBar />
             <div className="home">
                 <Header />
+                <div style={{
+                    alignItems:"center",
+                    display:"flex",
+                    justifyContent:"center",
+                    flexDirection:"column"
+                }}>
                 {prop.Component}
+                </div>
             </div>
         </div>
     </>)

@@ -8,6 +8,14 @@
   color: red($color: #000000);
 
 }
+
+.Page{
+  justify-content: center;
+  align-items: center;
+  //display: flex;
+  //gap: 0;
+}
+
 .container{
   background-color: black;
 }
@@ -254,10 +262,15 @@
   background: none;
 }
 .home{
+  //display: inline-block;
   background-color: rgb(235, 237, 239);
+  //align-items: center !important;
+  //align-content: center !important;
+  //justify-content: center !important;
+  //align-self: center;
   // position: relative;
   // display: flex;
-  // flex-direction: row;
+  // flex-direction: column;
   // flex-wrap: wrap;
   // justify-content: start;
   // gap: 5px;
@@ -274,6 +287,8 @@
   left: 250px;
   // background-color: #1d1b31;
   width: calc(100% - 250px);
+  align-items: center;
+  justify-content: center;
 }
 .home-section .text{
   display: inline-block;
