@@ -14,10 +14,16 @@
     "@emotion/styled": "^11.11.0",
     "@material-ui/core": "^4.12.4",
     "@mui/icons-material": "^5.15.4",
+    "@mui/lab": "^5.0.0-alpha.165",
     "@mui/material": "^5.15.4",
+    "@mui/x-date-pickers": "^6.19.4",
+    "ag-grid-enterprise": "^31.1.1",
+    "ag-grid-react": "^31.1.1",
+    "dayjs": "^1.11.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.21.2"
+    "react-router-dom": "^6.21.2",
+    "react-select": "^5.8.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

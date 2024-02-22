@@ -1,0 +1,38 @@
+.input {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  text-align: center;
+  height: 50px;
+  vertical-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.IconDiv {
+  cursor: pointer;
+}
+
+.IconDiv:hover {
+  background-color: red;
+  transition: 0.5s background-color;
+}
+
+.IconDiv:hover > svg {
+  color: white;
+  transition: 0.5s background-color;
+}
+
+.Icon {
+  color: red;
+}
+
+.Icon:hover {
+  color: white;
+}
+.IconDiv:active {
+  background-color: black;
+}
