@@ -17,13 +17,15 @@
     "@mui/lab": "^5.0.0-alpha.165",
     "@mui/material": "^5.15.4",
     "@mui/x-date-pickers": "^6.19.4",
+    "@wavesurfer/react": "^1.0.6",
     "ag-grid-enterprise": "^31.1.1",
     "ag-grid-react": "^31.1.1",
     "dayjs": "^1.11.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.2",
-    "react-select": "^5.8.0"
+    "react-select": "^5.8.0",
+    "react-toastify": "^10.0.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

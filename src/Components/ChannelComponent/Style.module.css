@@ -1,0 +1,35 @@
+.channelBox {
+  width: 1000px;
+  height: 165px;
+  background-color: white;
+}
+
+.tvBox {
+  display: flex;
+  direction: rtl;
+  margin-bottom: 15px;
+  color: gray;
+}
+
+.tvBox > svg {
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.numberBox {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.titleBox {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.lineBox {
+  display: flex;
+  justify-content: center;
+}

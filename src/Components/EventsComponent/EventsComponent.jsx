@@ -1,11 +1,25 @@
 import { Grid } from "@material-ui/core";
 import Pagination from '@mui/material/Pagination';
-
+import { useEffect } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const EventsComponent = () => {
-
+    useEffect(() => {
+        toast.info("a new event has happend !", {
+        })
+        toast.info("a new event has happend !", {
+        })
+        toast.info("a new event has happend !", {
+        })
+        toast.info("a new event has happend !", {
+        })
+    }, [])
     return (
         <>
+            <div>
+                <ToastContainer />
+            </div>
             <Grid container spacing={3} style={{
                 width: 1000,
                 backgroundColor: "white",
@@ -24,7 +38,7 @@ const EventsComponent = () => {
                     width: "100%",
                     display: "flex",
                     flexDirection: "column",
-                    gap:10,
+                    gap: 10,
                     justifyContent: "center",
                     alignItems: "center"
                 }}>
@@ -35,12 +49,12 @@ const EventsComponent = () => {
                         borderRadius: 4,
                         borderStyle: "solid",
                         borderWidth: 2,
-                        borderColor:"green"
+                        borderColor: "green"
 
                     }}>
                         <p style={{
-                            marginLeft:8,
-                            marginTop:14
+                            marginLeft: 8,
+                            marginTop: 14
                         }}>
                             1. Detect Word <span> </span>
                             <span style={{
@@ -52,19 +66,19 @@ const EventsComponent = () => {
                             in
                             <span> </span>
                             <span>
-                            <a href="#" style={{
-                                color:"black"
-                            }}>
-                                voice1
-                            </a>
+                                <a href="#" style={{
+                                    color: "black"
+                                }}>
+                                    voice1
+                                </a>
                             </span>
                             <span> </span>
-                            at 
+                            at
                             <span> </span>
                             <span style={{
                                 fontWeight: "bold"
                             }}>
-                            2023.1.1
+                                2023.1.1
                             </span>
                         </p>
                     </div>
@@ -77,11 +91,11 @@ const EventsComponent = () => {
                         borderRadius: 4,
                         borderStyle: "solid",
                         borderWidth: 2,
-                        borderColor:"green"
+                        borderColor: "green"
                     }}>
                         <p style={{
-                            marginLeft:8,
-                            marginTop:14
+                            marginLeft: 8,
+                            marginTop: 14
                         }}>
                             1. Detect Word <span> </span>
                             <span style={{
@@ -93,19 +107,19 @@ const EventsComponent = () => {
                             in
                             <span> </span>
                             <span>
-                            <a href="#" style={{
-                                color:"black"
-                            }}>
-                                voice1
-                            </a>
+                                <a href="#" style={{
+                                    color: "black"
+                                }}>
+                                    voice1
+                                </a>
                             </span>
                             <span> </span>
-                            at 
+                            at
                             <span> </span>
                             <span style={{
                                 fontWeight: "bold"
                             }}>
-                            2023.1.1
+                                2023.1.1
                             </span>
                         </p>
                     </div>
@@ -117,11 +131,11 @@ const EventsComponent = () => {
                         borderRadius: 4,
                         borderStyle: "solid",
                         borderWidth: 2,
-                        borderColor:"green"
+                        borderColor: "green"
                     }}>
                         <p style={{
-                            marginLeft:8,
-                            marginTop:14
+                            marginLeft: 8,
+                            marginTop: 14
                         }}>
                             1. Detect Word <span> </span>
                             <span style={{
@@ -133,19 +147,19 @@ const EventsComponent = () => {
                             in
                             <span> </span>
                             <span>
-                            <a href="#" style={{
-                                color:"black"
-                            }}>
-                                voice3
-                            </a>
+                                <a href="#" style={{
+                                    color: "black"
+                                }}>
+                                    voice3
+                                </a>
                             </span>
                             <span> </span>
-                            at 
+                            at
                             <span> </span>
                             <span style={{
                                 fontWeight: "bold"
                             }}>
-                            2023.1.1
+                                2023.1.1
                             </span>
                         </p>
                     </div>
@@ -158,8 +172,8 @@ const EventsComponent = () => {
                         borderRadius: 4,
                     }}>
                         <p style={{
-                            marginLeft:8,
-                            marginTop:14
+                            marginLeft: 8,
+                            marginTop: 14
                         }}>
                             1. Detect Word <span> </span>
                             <span style={{
@@ -171,19 +185,19 @@ const EventsComponent = () => {
                             in
                             <span> </span>
                             <span>
-                            <a href="#" style={{
-                                color:"black"
-                            }}>
-                                voice4
-                            </a>
+                                <a href="#" style={{
+                                    color: "black"
+                                }}>
+                                    voice4
+                                </a>
                             </span>
                             <span> </span>
-                            at 
+                            at
                             <span> </span>
                             <span style={{
                                 fontWeight: "bold"
                             }}>
-                            2023.1.1
+                                2023.1.1
                             </span>
                         </p>
                     </div>
@@ -200,7 +214,7 @@ const EventsComponent = () => {
                     width: "100%"
                 }}>
                     <Pagination count={10} variant="outlined" shape="rounded" style={{
-                        marginBottom:20
+                        marginBottom: 20
                     }} />
                 </Grid>
             </Grid>

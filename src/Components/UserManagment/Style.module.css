@@ -1,0 +1,27 @@
+.plusDiv:hover {
+  background-color: rgb(50, 31, 219);
+  transition: 0.5s background-color;
+}
+
+.plusDiv:hover > svg {
+  color: white;
+  transition: 0.5s background-color;
+}
+
+.plusDiv > svg {
+  color: rgb(50, 31, 219);
+  font-size: 20;
+}
+
+.plusDiv {
+  cursor: pointer;
+}
+
+.plusDiv:active {
+  background-color: black;
+}
+
+
+.textFieldAddUser{
+  margin: 5px !important;
+}

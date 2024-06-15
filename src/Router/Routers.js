@@ -6,6 +6,8 @@ import EventsPage from "../Pages/EventsPage"
 import VoicePage from "../Pages/VoicePage";
 import UploadPage from "../Pages/UploadPage";
 import VoiceSubmitPage from "../Pages/VoiceSubmitPage";
+import LoginPage from "../Pages/LoginPage";
+import UserManagementPage from "../Pages/UserManagementPage";
 
 const routes = [
     {
@@ -46,6 +48,16 @@ const routes = [
     {
       path : "/VoiceSubmit",
       component:VoiceSubmitPage,
+      Private : false
+    },
+    {
+      path : "/Login",
+      component:LoginPage,
+      Private : false
+    },
+    {
+      path : "/UserManagement",
+      component:UserManagementPage,
       Private : false
     }
   ];

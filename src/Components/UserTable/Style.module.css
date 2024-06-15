@@ -1,0 +1,54 @@
+.IconDiv {
+  cursor: pointer;
+}
+
+.IconDiv:hover {
+  background-color: red;
+  transition: 0.5s background-color;
+}
+
+.IconDiv:hover > svg {
+  color: white;
+  transition: 0.5s background-color;
+}
+
+.Icon {
+  color: red;
+}
+
+.Icon:hover {
+  color: white;
+}
+.IconDiv:active {
+  background-color: black;
+}
+
+.IconEditDiv {
+  cursor: pointer;
+}
+
+.IconEditDiv:hover {
+  background-color: green;
+  transition: 0.5s background-color;
+}
+
+.IconEditDiv:hover > svg {
+  color: white;
+  transition: 0.5s background-color;
+}
+
+.EditIcon {
+  color: green;
+}
+
+.EditIcon :hover {
+  color: white;
+}
+
+.IconEditDiv:active {
+  background-color: black;
+}
+
+.textFieldAddUser {
+  margin: 5px !important;
+}

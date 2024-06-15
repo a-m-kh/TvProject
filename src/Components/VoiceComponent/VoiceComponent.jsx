@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import style from "./style.module.css";
 import { useState } from "react";
 import { textFieldClasses } from "@mui/material";
+import VoicePlayer from "../VoicePlayer/VoicePlayer";
 
 const VoiceComponent = () => {
     const ColorButton = styled(Button)(({ theme }) => ({
@@ -49,7 +50,13 @@ const VoiceComponent = () => {
 
     return (
         <>
-            <Grid container spacing={3} style={{
+            <div style={{
+                width: "100%"
+            }}>
+                <VoicePlayer />
+
+            </div>
+            {/* <Grid container spacing={3} style={{
                 width: 1000,
                 backgroundColor: "white",
                 //marginLeft: 95,
@@ -79,8 +86,7 @@ const VoiceComponent = () => {
                                 style={{ color: "orange" }}>uncover</spin> many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
                     </p>
                 </Grid>
-                {/*                 
- */}
+                
                 <div style={{
                     display: `${displayState}`,
                     justifyContent: "center",
@@ -113,9 +119,7 @@ const VoiceComponent = () => {
                         </Grid>
                     </Grid>
                 </div>
-                {/* 
- */}
-
+                
                 <Grid>
                     <ColorButton variant="contained" onClick={Edit} style={{
                         marginLeft: 20,
@@ -239,7 +243,7 @@ const VoiceComponent = () => {
                     </Grid>
 
                 </Grid>
-            </Grid>
+            </Grid> */}
         </>
     )
 }

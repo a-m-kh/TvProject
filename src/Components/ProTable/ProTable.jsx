@@ -8,6 +8,8 @@ import React, { StrictMode, useCallback, useMemo, useState } from 'react';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import { createRoot } from 'react-dom/client';
+import './Style.css'
+
 
 var filterParams = {
     comparator: (filterLocalDateAtMidnight, cellValue) => {

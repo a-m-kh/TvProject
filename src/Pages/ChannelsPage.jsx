@@ -1,11 +1,9 @@
 import BasePage from "./BasePage/BasePage";
-
+import ChannelComponent from "../Components/ChannelComponent/ChannelComponent";
 const ChannelsPage = () => {
-    const page = <h1>
-        amir
-    </h1>
 
-    return <BasePage Component={page} /> 
+
+    return <BasePage Component={<ChannelComponent />} />
 
 
 }
